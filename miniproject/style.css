@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(45deg,red,pink);
+}
+
+.menu{
+    text-align:center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:none;
+    color:white;
+    background-color:rgb(236, 200, 200);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}
+
+a:hover{
+    background-color: violet;
+}
+
+.left-menu {
+    background-color:bisque;
+    float: right;
+    padding: 96px;
+}
+h5{    box-shadow: 3px 2px 4px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid #52746d;
+    border-radius: 8px;
+}
+h5:hover{
+    color: white;
+    background-color:rgb(49, 49, 49);
+}
+.main_heading{
+    text-align:center;
+}
+h1{
+    color: white;
+    width: 82%;
+    font-family:verdana,geneva,tahoma,sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+
+#image_user{
+    width: 100px;
+    border-radius: 5px solid greeen;
+}
+
+.sub_heading{
+    text-align: center;
+    border:1px solid red;
+    width: 32%;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(90deg,green,blue);
+}
+h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    color:whitescore;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: white;
+    text-align:center;
+    width: 14%;
+    margin: auto;
+    background-color: rgba(201, 118, 118, 0.325);
+    padding: 10px;
+    border-radius:8px;
+    box-shadow: 0px 0px 4px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+img{
+
+    width: 260px;
+    border: 5px solid red;;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+

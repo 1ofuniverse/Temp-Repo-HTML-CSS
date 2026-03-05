@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Maps</title>
+    </head>
+    <body>
+        <p id="my_paragraphs">LOCATION</p>
+        <button oneclick="myFUN()">SHow Postion</button>
+
+    </body>
+    <script>
+        function myFUN() {
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPostion(function pv(pos   ))  
+            }else{
+                console.log("Your Browser Doesnt support ")
+            }
+        }
+
+    </script>
+</html>

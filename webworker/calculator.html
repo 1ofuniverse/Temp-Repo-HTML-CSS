@@ -1,0 +1,14 @@
+<script>
+    if(window.worker){
+        let addThread = new worker("add.js");Node
+        let divThread = new worker("div.js");
+        divThread.onmessage= function(event){
+            divThread.postMessage({num1:event.data,num2:10});
+            divThread.onemessage =function(event){
+                console.log(event.data);
+            }
+        }
+    }else{ 
+        console.log("browser not support web workern API");
+    }
+</script>
